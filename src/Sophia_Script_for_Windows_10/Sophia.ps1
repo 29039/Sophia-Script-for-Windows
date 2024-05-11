@@ -2,7 +2,7 @@
 	.SYNOPSIS
 	Default preset file for "Sophia Script for Windows 10"
 
-	Version: v5.18.5
+	Version: v5.18.5 CUSTOM 0.1
 	Date: 14.04.2024
 
 	Copyright (c) 2014—2024 farag, Inestic & lowl1f3
@@ -261,7 +261,7 @@ BingSearch -Disable
 #region UI & Personalization
 # Show the "This PC" icon on Desktop
 # Отобразить значок "Этот компьютер" на рабочем столе
-ThisPC -Show
+#DISABLED ThisPC -Show
 
 # Hide the "This PC" icon on Desktop (default value)
 # Скрыть "Этот компьютер" на рабочем столе (значение по умолчанию)
@@ -277,7 +277,7 @@ CheckBoxes -Disable
 
 # Show hidden files, folders, and drives
 # Отобразить скрытые файлы, папки и диски
-HiddenItems -Enable
+#DISABLED HiddenItems -Enable
 
 # Do not show hidden files, folders, and drives (default value)
 # Не показывать скрытые файлы, папки и диски (значение по умолчанию)
@@ -285,7 +285,7 @@ HiddenItems -Enable
 
 # Show file name extensions
 # Отобразить расширения имён файлов
-FileExtensions -Show
+#DISABLED FileExtensions -Show
 
 # Hide file name extensions (default value)
 # Скрывать расширения имён файлов файлов (значение по умолчанию)
@@ -301,7 +301,7 @@ MergeConflicts -Show
 
 # Open File Explorer to "This PC"
 # Открывать проводник для "Этот компьютер"
-OpenFileExplorerTo -ThisPC
+#DISABLED OpenFileExplorerTo -ThisPC
 
 # Open File Explorer to Quick access (default value)
 # Открывать проводник для "Быстрый доступ" (значение по умолчанию)
@@ -325,7 +325,7 @@ OneDriveFileExplorerAd -Hide
 
 # When I snap a window, do not show what I can snap next to it
 # При прикреплении окна не показывать, что можно прикрепить рядом с ним
-SnapAssist -Disable
+#DISABLED SnapAssist -Disable
 
 # When I snap a window, show what I can snap next to it (default value)
 # При прикреплении окна показывать, что можно прикрепить рядом с ним (значение по умолчанию)
@@ -357,7 +357,7 @@ RecycleBinDeleteConfirmation -Enable
 
 # Hide recently used files in Quick access
 # Скрыть недавно использовавшиеся файлы на панели быстрого доступа
-QuickAccessRecentFiles -Hide
+#DISABLED QuickAccessRecentFiles -Hide
 
 # Show recently used files in Quick access (default value)
 # Показать недавно использовавшиеся файлы на панели быстрого доступа (значение по умолчанию)
@@ -365,7 +365,7 @@ QuickAccessRecentFiles -Hide
 
 # Hide frequently used folders in Quick access
 # Скрыть недавно используемые папки на панели быстрого доступа
-QuickAccessFrequentFolders -Hide
+#DISABLED QuickAccessFrequentFolders -Hide
 
 # Show frequently used folders in Quick access (default value)
 # Показать часто используемые папки на панели быстрого доступа (значение по умолчанию)
@@ -409,7 +409,7 @@ CopilotButton -Hide
 
 # Hide the Task View button on the taskbar
 # Скрыть кнопку Просмотра задач
-TaskViewButton -Hide
+#DISABLED TaskViewButton -Hide
 
 # Show the Task View button on the taskbar (default value)
 # Отобразить кнопку Просмотра задач (значение по умолчанию)
@@ -449,7 +449,7 @@ WindowsInkWorkspace -Hide
 
 # Always show all icons in the notification area
 # Всегда отображать все значки в области уведомлений
-NotificationAreaIcons -Show
+#DISABLED NotificationAreaIcons -Show
 
 # Hide all icons in the notification area (default value)
 # Скрыть все значки в области уведомлений (значение по умолчанию)
@@ -457,7 +457,7 @@ NotificationAreaIcons -Show
 
 # Show seconds on the taskbar clock
 # Отобразить секунды в системных часах на панели задач
-SecondsInSystemClock -Show
+#DISABLED SecondsInSystemClock -Show
 
 # Hide seconds on the taskbar clock (default value)
 # Скрыть секунды в системных часах на панели задач (значение по умолчанию)
@@ -469,7 +469,7 @@ UnpinTaskbarShortcuts -Shortcuts Edge, Store, Mail
 
 # View the Control Panel icons by large icons
 # Просмотр иконок Панели управления как: крупные значки
-ControlPanelView -LargeIcons
+#DISABLED ControlPanelView -LargeIcons
 
 # View the Control Panel icons by small icons
 # Просмотр иконок Панели управления как: маленькие значки
@@ -481,7 +481,7 @@ ControlPanelView -LargeIcons
 
 # Set the default Windows mode to dark
 # Установить режим Windows по умолчанию на темный
-WindowsColorMode -Dark
+#DISABLED WindowsColorMode -Dark
 
 # Set the default Windows mode to light (default value)
 # Установить режим Windows по умолчанию на светлый (значение по умолчанию)
@@ -489,7 +489,7 @@ WindowsColorMode -Dark
 
 # Set the default app mode to dark
 # Установить цвет режима приложения на темный
-AppColorMode -Dark
+#DISABLED AppColorMode -Dark
 
 # Set the default app mode to light (default value)
 # Установить цвет режима приложения на светлый (значение по умолчанию)
@@ -497,7 +497,7 @@ AppColorMode -Dark
 
 # Hide the "New App Installed" indicator
 # Скрыть уведомление "Установлено новое приложение"
-NewAppInstalledNotification -Hide
+#DISABLED NewAppInstalledNotification -Hide
 
 # Show the "New App Installed" indicator (default value)
 # Показывать уведомление "Установлено новое приложение" (значение по умолчанию)
@@ -529,7 +529,7 @@ TaskManagerWindow -Expanded
 
 # Do not add the "- Shortcut" suffix to the file name of created shortcuts
 # Нe дoбaвлять "- яpлык" к имени coздaвaeмых яpлыков
-ShortcutsSuffix -Disable
+#DISABLED ShortcutsSuffix -Disable
 
 # Add the "- Shortcut" suffix to the file name of created shortcuts (default value)
 # Дoбaвлять "- яpлык" к имени coздaвaeмых яpлыков (значение по умолчанию)
@@ -537,7 +537,7 @@ ShortcutsSuffix -Disable
 
 # Use the Print screen button to open screen snipping
 # Использовать кнопку PRINT SCREEN, чтобы запустить функцию создания фрагмента экрана
-PrtScnSnippingTool -Enable
+#DISABLED PrtScnSnippingTool -Enable
 
 # Do not use the Print screen button to open screen snipping (default value)
 # Не использовать кнопку PRINT SCREEN, чтобы запустить функцию создания фрагмента экрана (значение по умолчанию)
@@ -545,7 +545,7 @@ PrtScnSnippingTool -Enable
 
 # Let me use a different input method for each app window
 # Позволить выбирать метод ввода для каждого окна
-AppsLanguageSwitch -Enable
+#DISABLED AppsLanguageSwitch -Enable
 
 # Do not use a different input method for each app window (default value)
 # Не использовать метод ввода для каждого окна (значение по умолчанию)
@@ -561,11 +561,11 @@ AeroShaking -Enable
 
 # Download and install free dark "Windows 11 Cursors Concept v2" cursors from Jepri Creations
 # Скачать и установить бесплатные темные курсоры "Windows 11 Cursors Concept v2" от Jepri Creations
-Cursors -Dark
+#DISABLED Cursors -Dark
 
 # Download and install free light "Windows 11 Cursors Concept v2" cursors from Jepri Creations
 # Скачать и установить бесплатные светлые курсоры "Windows 11 Cursors Concept v2" от Jepri Creations
-# Cursors -Light
+Cursors -Light #ENABLED
 
 # Set default cursors
 # Установить курсоры по умолчанию
@@ -573,7 +573,7 @@ Cursors -Dark
 
 # Do not group files and folder in the Downloads folder
 # Не группировать файлы и папки в папке Загрузки
-FolderGroupBy -None
+#DISABLED FolderGroupBy -None
 
 # Group files and folder by date modified in the Downloads folder (default value)
 # Группировать файлы и папки по дате изменения (значение по умолчанию)
@@ -581,11 +581,11 @@ FolderGroupBy -None
 
 # Do not expand to open folder on navigation pane (default value)
 # Не разворачивать до открытой папки область навигации (значение по умолчанию)
-NavigationPaneExpand -Disable
+#DISABLED NavigationPaneExpand -Disable
 
 # Expand to open folder on navigation pane
 # Развернуть до открытой папки область навигации
-# NavigationPaneExpand -Enable
+NavigationPaneExpand -Enable #ENABLED
 #endregion UI & Personalization
 
 #region OneDrive
@@ -599,14 +599,14 @@ NavigationPaneExpand -Disable
 
 # Install OneDrive 64-bit all users to %ProgramFiles% depending which installer is triggered
 # Установить OneDrive 64-бит для всех пользователей в %ProgramFiles% в зависимости от от того, как запускается инсталлятор
-# OneDrive -Install -AllUsers
+OneDrive -Install -AllUsers #ENABLED
 #endregion OneDrive
 
 #region System
 #region StorageSense
 # Turn on Storage Sense
 # Включить Контроль памяти
-StorageSense -Enable
+#DISABLED StorageSense -Enable
 
 # Turn off Storage Sense (default value)
 # Выключить Контроль памяти (значение по умолчанию)
@@ -614,7 +614,7 @@ StorageSense -Enable
 
 # Run Storage Sense every month
 # Запускать Контроль памяти каждый месяц
-StorageSenseFrequency -Month
+#DISABLED StorageSenseFrequency -Month
 
 # Run Storage Sense during low free disk space (default value)
 # Запускать Контроль памяти, когда остается мало место на диске (значение по умолчанию)
@@ -655,7 +655,7 @@ Win32LongPathLimit -Disable
 
 # Display Stop error code when BSoD occurs
 # Отображать код Stop-ошибки при появлении BSoD
-BSoDStopError -Enable
+#DISABLED BSoDStopError -Enable
 
 # Do not display stop error code when BSoD occurs (default value)
 # Не отображать код Stop-ошибки при появлении BSoD (значение по умолчанию)
@@ -663,7 +663,7 @@ BSoDStopError -Enable
 
 # Choose when to be notified about changes to your computer: never notify
 # Настройка уведомления об изменении параметров компьютера: никогда не уведомлять
-AdminApprovalMode -Never
+#DISABLED AdminApprovalMode -Never
 
 # Choose when to be notified about changes to your computer: notify me only when apps try to make changes to my computer (default value)
 # Настройка уведомления об изменении параметров компьютера: уведомлять меня только при попытках приложений внести изменения в компьютер (значение по умолчанию)
@@ -679,7 +679,7 @@ MappedDrivesAppElevatedAccess -Enable
 
 # Turn off Delivery Optimization
 # Выключить оптимизацию доставки
-DeliveryOptimization -Disable
+#DISABLED DeliveryOptimization -Disable
 
 # Turn on Delivery Optimization (default value)
 # Включить оптимизацию доставки (значение по умолчанию)
@@ -687,7 +687,7 @@ DeliveryOptimization -Disable
 
 # Do not let Windows manage my default printer
 # Не разрешать Windows управлять принтером, используемым по умолчанию
-WindowsManageDefaultPrinter -Disable
+#DISABLED WindowsManageDefaultPrinter -Disable
 
 # Let Windows manage my default printer (default value)
 # Разрешать Windows управлять принтером, используемым по умолчанию (значение по умолчанию)
@@ -729,7 +729,7 @@ UpdateMicrosoftProducts -Enable
 
 # Set power plan on "High performance". It isn't recommended to turn on for laptops
 # Установить схему управления питанием на "Высокая производительность". Не рекомендуется включать на ноутбуках
-PowerPlan -High
+#DISABLED PowerPlan -High
 
 # Set power plan on "Balanced" (default value)
 # Установить схему управления питанием на "Сбалансированная" (значение по умолчанию)
@@ -737,7 +737,7 @@ PowerPlan -High
 
 # Do not allow the computer to turn off the network adapters to save power. It isn't recommended to turn off for laptops
 # Запретить отключение всех сетевых адаптеров для экономии энергии. Не рекомендуется выключать на ноутбуках
-NetworkAdaptersSavePower -Disable
+#DISABLED NetworkAdaptersSavePower -Disable
 
 # Allow the computer to turn off the network adapters to save power (default value)
 # Разрешить отключение всех сетевых адаптеров для экономии энергии (значение по умолчанию)
@@ -750,7 +750,7 @@ NetworkAdaptersSavePower -Disable
 	Выключить IP версии 6 (TCP/IPv6)
 	Перед выполнением функции будет проведена проверка: поддерживает ли ваш провайдер IPv6, используя ресурс https://ipify.org
 #>
-IPv6Component -Disable
+#DISABLED IPv6Component -Disable
 
 <#
 	Enable the Internet Protocol Version 6 (TCP/IPv6) component for all network connections (default value)
@@ -772,7 +772,7 @@ IPv6Component -Disable
 
 # Override for default input method: English
 # Переопределить метод ввода по умолчанию: английский
-InputMethod -English
+#DISABLED InputMethod -English
 
 # Override for default input method: use language list (default value)
 # Переопределить метод ввода по умолчанию: использовать список языков (значение по умолчанию)
@@ -787,7 +787,7 @@ InputMethod -English
 	Пользовательские файлы и папки не будут перемещены в новое расположение. Переместите их вручную
 	По умолчанию они располагаются в папке %USERPROFILE%
 #>
-Set-UserShellFolderLocation -Root
+#DISABLED Set-UserShellFolderLocation -Root
 
 <#
 	Select folders for user folders location manually using a folder browser dialog
@@ -813,7 +813,7 @@ Set-UserShellFolderLocation -Root
 
 # Use the latest installed .NET runtime for all apps
 # Использовать последнюю установленную среду выполнения .NET для всех приложений
-LatestInstalled.NET -Enable
+#DISABLED LatestInstalled.NET -Enable
 
 # Do not use the latest installed .NET runtime for all apps (default value)
 # Не использовать последнюю установленную версию .NET для всех приложений (значение по умолчанию)
@@ -828,7 +828,7 @@ LatestInstalled.NET -Enable
 	Функция будет применена только в случае, если в пресете настроено удаление приложения OneDrive или приложение уже удалено,
 	иначе в OneDrive ломается функционал резервного копирования для папок "Рабочий стол" и "Изображения"
 #>
-WinPrtScrFolder -Desktop
+#DISABLED WinPrtScrFolder -Desktop
 
 # Save screenshots by pressing Win+PrtScr in the Pictures folder (default value)
 # Cохранять скриншоты по нажатию Win+PrtScr в папку "Изображения" (значение по умолчанию)
@@ -841,7 +841,7 @@ WinPrtScrFolder -Desktop
 	Автоматически запускать средства устранения неполадок, а затем уведомлять
 	Чтобы заработала данная функция, уровень сбора диагностических данных ОС будет установлен на "Необязательные диагностические данные" и включится создание отчетов об ошибках Windows
 #>
-RecommendedTroubleshooting -Automatically
+#DISABLED RecommendedTroubleshooting -Automatically
 
 <#
 	Ask me before running troubleshooter (default value)
@@ -862,7 +862,7 @@ FoldersLaunchSeparateProcess -Enable
 
 # Disable and delete reserved storage after the next update installation
 # Отключить и удалить зарезервированное хранилище после следующей установки обновлений
-ReservedStorage -Disable
+#DISABLED ReservedStorage -Disable
 
 # Enable reserved storage (default value)
 # Включить зарезервированное хранилище (значение по умолчанию)
@@ -878,7 +878,7 @@ F1HelpPage -Disable
 
 # Enable Num Lock at startup
 # Включить Num Lock при загрузке
-NumLock -Enable
+#DISABLED NumLock -Enable
 
 # Disable Num Lock at startup (default value)
 # Выключить Num Lock при загрузке (значение по умолчанию)
@@ -910,7 +910,7 @@ Autoplay -Disable
 
 # Disable thumbnail cache removal
 # Отключить удаление кэша миниатюр
-ThumbnailCacheRemoval -Disable
+#DISABLED ThumbnailCacheRemoval -Disable
 
 # Enable thumbnail cache removal (default value)
 # Включить удаление кэша миниатюр (значение по умолчанию)
@@ -918,7 +918,7 @@ ThumbnailCacheRemoval -Disable
 
 # Automatically saving my restartable apps when signing out and restart them after signing in
 # Автоматически сохранять мои перезапускаемые приложения при выходе из системы и перезапускать их при повторном входе
-SaveRestartableApps -Enable
+#DISABLED SaveRestartableApps -Enable
 
 # Turn off automatically saving my restartable apps when signing out and restart them after signing in (default value)
 # Выключить автоматическое сохранение моих перезапускаемых приложений при выходе из системы и перезапускать их после выхода (значение по умолчанию)
@@ -926,7 +926,7 @@ SaveRestartableApps -Enable
 
 # Enable "Network Discovery" and "File and Printers Sharing" for workgroup networks
 # Включить сетевое обнаружение и общий доступ к файлам и принтерам для рабочих групп
-NetworkDiscovery -Enable
+#DISABLED NetworkDiscovery -Enable
 
 # Disable "Network Discovery" and "File and Printers Sharing" for workgroup networks (default value)
 # Выключить сетевое обнаружение и общий доступ к файлам и принтерам для рабочих групп (значение по умолчанию)
@@ -1012,12 +1012,12 @@ InstallVCRedist
 
 	https://dotnet.microsoft.com/en-us/download/dotnet
 #>
-InstallDotNetRuntimes -Runtimes NET6x64, NET8x64
+#DISABLED InstallDotNetRuntimes -Runtimes NET6x64, NET8x64
 
 # Enable proxying only blocked sites from the unified registry of Roskomnadzor. The function is applicable for Russia only
 # Включить проксирование только заблокированных сайтов из единого реестра Роскомнадзора. Функция применима только для России
 # https://antizapret.prostovpn.org
-RKNBypass -Enable
+#DISABLED RKNBypass -Enable
 
 # Disable proxying only blocked sites from the unified registry of Roskomnadzor (default value)
 # Выключить проксирование только заблокированных сайтов из единого реестра Роскомнадзора (значение по умолчанию)
@@ -1063,7 +1063,7 @@ SATADrivesRemovableMedia -Disable
 #region Start menu
 # Hide recently added apps in the Start menu
 # Скрывать недавно добавленные приложения в меню "Пуск"
-RecentlyAddedApps -Hide
+#DISABLED RecentlyAddedApps -Hide
 
 # Show recently added apps in the Start menu (default value)
 # Показывать недавно добавленные приложения в меню "Пуск" (значение по умолчанию)
@@ -1084,7 +1084,7 @@ AppSuggestions -Hide
 	Закрепить на начальном экране следующие ярлыки: Панель управления, Устройства и принтеры
 	Валидные значения ярлыков: ControlPanel и DevicesPrinters
 #>
-PinToStart -Tiles ControlPanel, DevicesPrinters
+#DISABLED PinToStart -Tiles ControlPanel, DevicesPrinters
 
 # Unpin all tiles first and pin necessary ones
 # Открепить все ярлыки сначала и закрепить необходимые
@@ -1154,7 +1154,7 @@ BackgroundUWPApps -Disable
 	Отключить Xbox Game Bar
 	Чтобы предотвратить появление предупреждения "Вам понадобится новое приложение, чтобы открыть этот ms-gamingoverlay", вам необходимо отключить приложение Xbox Game Bar, даже если вы удалили его раньше
 #>
-XboxGameBar -Disable
+#DISABLED XboxGameBar -Disable
 
 # Enable Xbox Game Bar (default value)
 # Включить Xbox Game Bar (значение по умолчанию)
@@ -1170,7 +1170,7 @@ XboxGameTips -Disable
 
 # Choose an app and set the "High performance" graphics performance for it. Only if you have a dedicated GPU
 # Выбрать приложение и установить для него параметры производительности графики на "Высокая производительность". Только при наличии внешней видеокарты
-Set-AppGraphicsPerformance
+#DISABLED Set-AppGraphicsPerformance
 
 <#
 	Turn on hardware-accelerated GPU scheduling. Restart needed
@@ -1194,7 +1194,7 @@ GPUScheduling -Enable
 	Создать задание "Windows Cleanup" по очистке неиспользуемых файлов и обновлений Windows в Планировщике заданий.
 	Задание выполняется каждые 30 дней. Необходимо включить Windows Script Host для того, чтобы работала функция
 #>
-CleanupTask -Register
+#DISABLED CleanupTask -Register
 
 # Delete the "Windows Cleanup" and "Windows Cleanup Notification" scheduled tasks for cleaning up Windows unused files and updates
 # Удалить задания "Windows Cleanup" и "Windows Cleanup Notification" по очистке неиспользуемых файлов и обновлений Windows из Планировщика заданий
@@ -1246,7 +1246,7 @@ PUAppsDetection -Enable
 
 # Enable sandboxing for Microsoft Defender
 # Включить песочницу для Microsoft Defender
-DefenderSandbox -Enable
+#DISABLED DefenderSandbox -Enable
 
 # Disable sandboxing for Microsoft Defender (default value)
 # Выключить песочницу для Microsoft Defender (значение по умолчанию)
@@ -1258,7 +1258,7 @@ DismissMSAccount
 
 # Dismiss Microsoft Defender offer in the Windows Security about turning on the SmartScreen filter for Microsoft Edge
 # Отклонить предложение Microsoft Defender в "Безопасность Windows" включить фильтр SmartScreen для Microsoft Edge
-DismissSmartScreenFilter
+#DISABLED DismissSmartScreenFilter
 
 # Enable events auditing generated when a process is created (starts)
 # Включить аудит событий, возникающих при создании или запуске процесса
@@ -1312,7 +1312,7 @@ PowerShellScriptsLogging -Enable
 
 # Microsoft Defender SmartScreen doesn't marks downloaded files from the Internet as unsafe
 # Microsoft Defender SmartScreen не помечает скачанные файлы из интернета как небезопасные
-AppsSmartScreen -Disable
+#DISABLED AppsSmartScreen -Disable
 
 # Microsoft Defender SmartScreen marks downloaded files from the Internet as unsafe (default value)
 # Microsoft Defender SmartScreen помечает скачанные файлы из интернета как небезопасные (значение по умолчанию)
@@ -1320,7 +1320,7 @@ AppsSmartScreen -Disable
 
 # Disable the Attachment Manager marking files that have been downloaded from the Internet as unsafe
 # Выключить проверку Диспетчером вложений файлов, скачанных из интернета, как небезопасные
-SaveZoneInformation -Disable
+#DISABLED SaveZoneInformation -Disable
 
 # Enable the Attachment Manager marking files that have been downloaded from the Internet as unsafe (default value)
 # Включить проверку Диспетчера вложений файлов, скачанных из интернета как небезопасные (значение по умолчанию)
@@ -1328,7 +1328,7 @@ SaveZoneInformation -Disable
 
 # Disable Windows Script Host. Blocks WSH from executing .js and .vbs files
 # Отключить Windows Script Host. Блокирует запуск файлов .js и .vbs
-# WindowsScriptHost -Disable
+WindowsScriptHost -Disable #ENABLED
 
 # Enable Windows Script Host (default value)
 # Включить Windows Script Host (значение по умолчанию)
@@ -1346,7 +1346,7 @@ SaveZoneInformation -Disable
 #region Context menu
 # Show the "Extract all" item in the Windows Installer (.msi) context menu
 # Отобразить пункт "Извлечь все" в контекстное меню Windows Installer (.msi)
-MSIExtractContext -Show
+#DISABLED MSIExtractContext -Show
 
 # Hide the "Extract all" item from the Windows Installer (.msi) context menu (default value)
 # Скрыть пункт "Извлечь все" из контекстного меню Windows Installer (.msi) (значение по умолчанию)
@@ -1354,7 +1354,7 @@ MSIExtractContext -Show
 
 # Show the "Install" item in the Cabinet (.cab) filenames extensions context menu
 # Отобразить пункт "Установить" в контекстное меню .cab архивов
-CABInstallContext -Show
+#DISABLED CABInstallContext -Show
 
 # Hide the "Install" item from the Cabinet (.cab) filenames extensions context menu (default value)
 # Скрыть пункт "Установить" из контекстного меню .cab архивов (значение по умолчанию)
@@ -1402,7 +1402,7 @@ IncludeInLibraryContext -Hide
 
 # Hide the "Send to" item from the folders context menu
 # Скрыть пункт "Отправить" из контекстного меню папок
-SendToContext -Hide
+#DISABLED SendToContext -Hide
 
 # Show the "Send to" item in the folders context menu (default value)
 # Отобразить пункт "Отправить" в контекстном меню папок (значение по умолчанию)
@@ -1426,7 +1426,7 @@ RichTextDocumentNewContext -Hide
 
 # Hide the "Compressed (zipped) Folder" item from the "New" context menu
 # Скрыть пункт "Сжатая ZIP-папка" из контекстного меню "Создать"
-CompressedFolderNewContext -Hide
+#DISABLED CompressedFolderNewContext -Hide
 
 # Show the "Compressed (zipped) Folder" item to the "New" context menu (default value)
 # Отобразить пункт "Сжатая ZIP-папка" в контекстном меню "Создать" (значение по умолчанию)
